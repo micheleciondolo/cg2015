@@ -4,7 +4,7 @@ import sys,time
 
 start=time.clock()
 
-# if you want to see intermediate results
+# if you want to see intermdiate results
 debug_tower =False
 
 
