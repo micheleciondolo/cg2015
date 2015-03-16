@@ -7,9 +7,9 @@
 
     }
   };
-  var x = this.prototype={size:20};// write code here
+  var x = {size:20};// write code here
 return x;
-  var y = this.prototype={size:10}// write code here
+  var y = {size:10}// write code here
 console.log(typeof x);
   larger(x, y);    
 }());
