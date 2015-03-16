@@ -15,8 +15,7 @@
                     this.arralb.forEach(function(item) {
                            arr2.push(item.count);})
                           var m= Math.max.apply(Math,arr2);
-                          console.log(m);
-                         var j= this.arralb.filter(function(item){return item.count==m}).pop(); 
+                          var j= this.arralb.find(function(item){return item.count==m}); 
                            return j.artist+" - "+j.name}
   }
   function Album(artist,name){
@@ -29,7 +28,7 @@
   
   Album.prototype={  
            count: 0,
-           play: function() {this.count=this.count+1;}
+           play: function() {this.count=this.count+1; console.log("Playing "+this.artist+" - "+this.name)}
   }
   ;
 
