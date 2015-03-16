@@ -9,7 +9,7 @@
        ;
   MusicBox.prototype= {
                     arralb:new Array(),
-                    addAlbum:function(){for (var i=0; i<arguments.length; i++) this.arralb.push(arguments[i]);},
+                    addAlbum:function(){this.arralb.concat(arguments);},
                     favoriteAlbum:function() {
                     var arr2= new Array();
                     this.arralb.forEach(function(item) {

@@ -19,7 +19,7 @@
     return { play: max_played, index: max_index };
   };
 
-  var music = [this.prototype={name: "Definitely Maybe - Oasis", played: 3},this.prototype={name: "Abbey Road - The Beatles", played: 7}];
+  var music = {name: "Definitely Maybe - Oasis", played: 3},{name: "Abbey Road - The Beatles", played: 7}];
 
   var fav = favorite_album( music );
 
